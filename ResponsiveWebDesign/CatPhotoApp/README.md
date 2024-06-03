@@ -7,3 +7,4 @@ Basic HTML webpage containing metadata, body (with main and footer). Intro to he
 ## References
 
 - https://www.freecatphotoapp.com/
+- https://developer.mozilla.org/en-US/docs/Web/HTML
