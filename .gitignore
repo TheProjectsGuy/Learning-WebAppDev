@@ -1,2 +1,6 @@
 # Ignore vscode settings
 .vscode/settings.json
+
+# Python cache files
+__pycache__/
+*.pyc
