@@ -7,4 +7,5 @@ Basics of Cascading Style Sheets (CSS) to give UI/style to the HTML.
 ## References
 
 - https://developer.mozilla.org/en-US/docs/Web/CSS
-- CSS Selectors: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors
+- CSS Selectors: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors
+    - Detailed: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors
