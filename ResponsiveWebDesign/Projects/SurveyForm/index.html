@@ -6,7 +6,50 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1 id="title">freeCodeCamp Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <h1 id="title">Personal Data Form</h1>
+    <p id="description">Thank you for submitting your information</p>
+    <section class="form-body">
+      <form action="submit" method="get" id="survey-form">
+        <fieldset>
+          <legend>Basic Details</legend>
+          <label for="name" id="name-label">Your Full Name</label>
+          <input type="text" name="name" id="name" class="form-item" placeholder="First Last" required />
+          <label for="email" id="email-label">Your EMail Address</label>
+          <input type="email" name="email" id="email" class="form-item" placeholder="email@example.com" required />
+          <label for="number" id="number-label">Your Age</label>
+          <input type="number" name="age" id="number" min="13" max="130" class="form-item" placeholder="13+" />
+        </fieldset>
+        <fieldset>
+          <legend>Your Gender</legend>
+          <label for="male"><input type="radio" name="gender" id="male" value="male" checked /> Male</label>
+          <label for="female"><input type="radio" name="gender" id="female" value="female" /> Female</label>
+          <label for="other"><input type="radio" name="gender" id="other" value="other" /> Other</label>
+        </fieldset>
+        <fieldset>
+          <label for="dropdown">Select Continent</label>
+          <select name="continent" id="dropdown" class="form-item">
+            <option value="">Select a continent</option>
+            <option value="asia">Asia</option>
+            <option value="africa">Africa</option>
+            <option value="europe">Europe</option>
+            <option value="north-america">North America</option>
+            <option value="south-america">South America</option>
+            <option value="australia">Australia</option>
+            <option value="antarctica">Antarctica</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>Select Hobbies</legend>
+          <label for="hobby-coding"><input type="checkbox" id="hobby-coding" name="hobby" value="coding" />Coding</label>
+          <label for="hobby-exercise"><input type="checkbox" id="hobby-exercise" name="hobby" value="exercise" />Exercise</label>
+          <label for="hobby-driving"><input type="checkbox" id="hobby-driving" name="hobby" value="driving" />Driving</label>
+        </fieldset>
+        <fieldset>
+          <legend>Add a biography</legend>
+          <textarea name="bio" id="bio" cols="50" rows="3"></textarea>
+        </fieldset>
+        <input type="submit" id="submit" value="Submit" class="form-submit" />
+      </form>
+    </section>
   </body>
 </html>

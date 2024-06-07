@@ -1,3 +1,42 @@
-h1, p {
+/* Center the title and text */
+body {
+  margin: 0;
   text-align: center;
 }
+#title {
+  font-size: 2.5em;
+  font-family: 'Courier New', Courier, monospace;
+}
+#description {
+  font-size: 1em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Form properties */
+.form-body {
+  background-color: lightcoral;
+  width: 70%;
+  text-align: left;
+  margin: auto;
+  padding: 10px;
+  border: 2px dashed blue;
+}
+/* Labels */
+label {
+  display: block;
+  max-width: 80%;
+  margin: auto;
+  border: 2px solid green;
+}
+.form-item {
+  display: block;
+  margin: auto;
+  width: 80%;
+  border: 2px dashed violet;
+}
+.form-submit {
+  display: block;
+  margin: 5px auto;
+  width: 40%;
+  border: 2px dashed violet;
+}
+
