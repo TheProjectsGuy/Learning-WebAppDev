@@ -7,3 +7,4 @@ Colors, their formats and properties in CSS.
 ## References
 
 - Color picker: https://coolors.co
+- Color Picker (snap app): https://snapcraft.io/color-picker
