@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+}
+main {
+  border: 3px solid red;
+}
+main > #title {
+  border: 2px dashed blue;
+  margin: 10 auto;
+  text-align: center;
+}
+main > #img-div {
+  border: 2px dashed aqua;
+}
+main > #img-div #image {
+  border: 2px solid green;
+}
+main > #img-div #img-caption {
+  border: 2px dashed greenyellow;
+  text-align: justify;
+  margin: auto;
+  width: 80%;
+}
+main > #tribute-info {
+  border: 2px solid teal;
+}
+#image {
+  /* display: flex; */
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  max-width: 100%;
+}
