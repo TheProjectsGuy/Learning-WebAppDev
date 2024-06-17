@@ -21,6 +21,8 @@
 ## Module 3
 
 - [BalanceSheet](./BalanceSheet/): Tables and pseudo-selectors
+- [CatPainting](./CatPainting/): Intermediate CSS
+- [Piano](./Piano/): CSS at-rules and pseudo-selectors
 
 ## References
 

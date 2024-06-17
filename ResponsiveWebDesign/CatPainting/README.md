@@ -8,4 +8,5 @@ Intermediate CSS
 
 - https://developer.mozilla.org/en-US/docs/Web/CSS/position
 - https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+- https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
 - https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
