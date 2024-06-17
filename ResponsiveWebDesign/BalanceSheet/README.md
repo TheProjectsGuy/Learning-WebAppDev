@@ -6,5 +6,6 @@ CSS Pseudo-selectors by building a balance sheet (including accessibility guidel
 
 ## References
 
-- https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+- https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
 - https://developer.mozilla.org/en-US/docs/Web/CSS/important
