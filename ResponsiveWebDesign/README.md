@@ -24,6 +24,8 @@
 - [CatPainting](./CatPainting/): Intermediate CSS
 - [Piano](./Piano/): CSS at-rules and pseudo-selectors
 
+**Project**: [TechnicalDocumentation](./Projects/TechnicalDocumentation/) - A documentation webpage
+
 ## References
 
 - https://www.freecodecamp.org/learn/2022/responsive-web-design/
