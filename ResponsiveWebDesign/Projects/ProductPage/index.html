@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Product Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header id="header">
+      <img id="header-img" src="" alt="" />
+      <nav id="nav-bar">
+        <div id="nav-title">Product Name</div>
+        <div id="nav-links">
+          <a class="nav-link" href="#highlights-l">Highlights</a>
+          <a class="nav-link" href="#video-l">Video</a>
+          <a class="nav-link" href="#comments-l">Comments</a>
+          <a class="nav-link" href="#email-l">Notify</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="sec-header" id="highlights-l"><h1>Highlights</h1></div>
+        <div id="header-content">
+          <div class="header-content-item" style="color: #f15900;">
+            <div class="header-content-icon">
+              <i class="fa-solid fa-fire fa-4x"></i>
+            </div>
+            <div class="header-content-text">
+              <h2>Fire</h2>
+              <p>Some text to describe fire</p>
+            </div>
+          </div>
+          <div class="header-content-item" style="color: #e2d300;">
+            <div class="header-content-icon">
+              <i class="fa-solid fa-bolt-lightning fa-4x"></i>
+            </div>
+            <div class="header-content-text">
+              <h2>Lightning</h2>
+              <p>Some text to describe a bolt</p>
+            </div>
+          </div>
+          <div class="header-content-item" style="color: #0173be;">
+            <div class="header-content-icon">
+              <i class="fa-solid fa-water fa-4x"></i>
+            </div>
+            <div class="header-content-text">
+              <h2>Water</h2>
+              <p>Some text to describe water. 30% of fresh water is in the ground. To create one pint of beer it takes 20 gallons of water. It takes 120 gallons of water for one egg.</p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="toremove-rect" style="height: 1000px"></div> -->
+      </section>
+      <section>
+        <div class="sec-header" id="video-l"><h1>Video</h1></div>
+        <div class="video-container">
+          <iframe id="video" width="420" height="315"
+            src="https://www.youtube.com/embed/tgbNymZ7vqY">
+          </iframe>
+          <!-- <div class="toremove-video-rectangle"></div> -->
+        </div>
+      </section>
+      <section>
+        <div class="sec-header" id="comments-l"><h1>Comments</h1></div>
+      </section>
+      <section>
+        <div class="sec-header" id="email-l"><h1>Notify</h1></div>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="get">
+          <fieldset>
+            <legend>Your Detail</legend>
+            <label for="email">Email </label>
+            <input id="email" type="email" name="email" placeholder="you@example.com" />
+          </fieldset>
+          <input type="submit" id="submit" value="Submit" />
+        </form>
+      </section>
+      <section>
+        To remove this section 
+        <div class="toremove-rect" style="height: 1000px"></div>
+      </section>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>

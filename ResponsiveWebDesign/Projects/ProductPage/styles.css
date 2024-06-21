@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --nav-bar-title-width: 50%;
+  --nav-bar-height: 30px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Demo shapes to remove */
+.toremove-video-rectangle {
+  height: 315px;
+  width: 420px;
+  background-color: #555;
+  margin: 5px auto;
+}
+.toremove-rect {
+  width: 1px;
+  background-color: black;
+  margin: 5px auto;
+}
+/* End of to remove */
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: var(--nav-bar-height);
+  background-color: white;
+  /* overflow: hidden; */
+  border: 2px solid red;
+  display: flex;
+  z-index: 10;
+}
+#nav-bar > #nav-title {
+  border: 1px solid black;
+  width: var(--nav-bar-title-width);
+}
+#nav-bar > #nav-links {
+  width: calc(100% - var(--nav-bar-title-width));
+  border: 1px dashed black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 700px) {
+  :root {
+    --nav-bar-title-width: 30%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  :root {
+    --nav-bar-title-width: 70%;
+  }
+}
+
+section {
+  margin: 0;
+  border: 1px solid blue;
+}
+
+.sec-link-spacer {
+  height: 1px;
+  border-bottom: 2px dashed blue;
+  margin-bottom: var(--nav-bar-height);
+}
+
+.sec-header {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  padding-top: var(--nav-bar-height);
+  border: 1px dashed black;
+}
+.sec-header > h1 {
+  margin-left: 10%;
+}
+
+#header-content {
+  padding: 3px;
+  border: 2px dashed yellowgreen;
+  display: flex;
+  flex-direction: column;
+}
+.header-content-item {
+  width: 80%;
+  border: 1px solid grey;
+  margin: 0 auto;
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+}
+.header-content-item > div {
+  border: 1px dashed lightblue;
+}
+.header-content-icon {
+  width: 20%;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 2%;
+}
+.header-content-text {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 80%;
+  text-align: justify;
+}
+
+.video-container {
+  display: flex;
+  margin-top: 20px;
+  border: 2px solid red;
+}
+#video {
+  margin: 5px auto;
+}
+
+footer {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  width: 100vw;
+  background-color: lightgray;
+}
+

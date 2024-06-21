@@ -12,7 +12,7 @@
 ## Module 2: CSS Boxes, fonts, and accessibility
 
 - [RothkoPainting](./RothkoPainting/): Rectangles
-- [PhotoGallery](./PhotoGallery/): Flexbox positioning
+- [PhotoGallery](./PhotoGallery/): Flexbox positioning in CSS
 - [NutritionLabel](./NutritionLabel/): Fonts
 - [QuizApp](./QuizApp/): Accessibility
 
@@ -25,6 +25,13 @@
 - [Piano](./Piano/): CSS at-rules and pseudo-selectors
 
 **Project**: [TechnicalDocumentation](./Projects/TechnicalDocumentation/) - A documentation webpage
+
+## Module 4
+
+- [CitySkyline](./CitySkyline/): Variables in CSS
+- [Magazine](./Magazine/): Grid layout in CSS
+
+**Project**: [ProductPage](./Projects/ProductPage/) - A product landing page
 
 ## References
 
