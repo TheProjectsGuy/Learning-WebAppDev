@@ -1,5 +1,7 @@
 # Responsive Web Design Course by FreeCodeCamp
 
+Certification: https://www.freecodecamp.org/certification/avneesh_m/responsive-web-design
+
 ## Module 1: Basic HTML and CSS
 
 - [CatPhotoApp](./CatPhotoApp/): Basic HTML webpage
