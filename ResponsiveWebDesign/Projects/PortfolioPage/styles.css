@@ -1,11 +1,137 @@
-#navbar {
-  position: fixed;
-  top: 10;
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --navbar-height: 50px;
+  --footer-height: 5vh;
+  /* Colors */
+  --navbar-theme-color: #c7eec9;
+  --navbar-a-bg-color: #7aff81;
+  --welcome-bg-color: #acb2c4;
+  --sect-bg-color: #fff6db;
+  --footer-bg-color: #c8fff1;
+  --welcome-title-color: #ebd7e1;
+  --section-title-color: #d7a6ff;
 }
 
+/* Dark Mode */
 @media screen and (prefers-color-scheme: dark) {
+  :root {
+    --navbar-theme-color: #ff6161;
+    --navbar-a-bg-color: #00a1e0;
+    --welcome-bg-color: #2d374d;
+    --sect-bg-color: #2b318a;
+    --footer-bg-color: #1e1d4d;
+    --welcome-title-color: #ffb9dc;
+    --section-title-color: #f83ab9;
+  }
   body {
-    background-color: black;
     color: white;
   }
+}
+
+body {
+  font-family: sans-serif;
+  color: black;
+}
+
+#navbar {
+  border: 2px solid red;
+  background-color: var(--navbar-theme-color);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: var(--navbar-height);
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+#navbar > div {
+  border: 2px solid blue;
+  font-size: 1.2rem;
+  width: 12%;
+  height: 100%;
+  /* line-height: var(--navbar-height); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#navbar > div:hover {
+  background-color: var(--navbar-a-bg-color);
+}
+#navbar a {
+  border: 1px solid red;
+  text-decoration: none;
+  color: blue;
+}
+#navbar a:active {
+  color: blue;
+}
+
+.sheet {
+  border: 1px dashed red;
+  height: 100vh;
+  padding-top: var(--navbar-height);
+}
+.sheet:last-of-type {
+  height: calc(100vh - var(--footer-height));
+}
+
+footer {
+  border: 1px dashed blue;
+  height: var(--footer-height);
+}
+
+section {
+  background-color: var(--sect-bg-color);
+}
+
+section > h1 {
+  color: var(--section-title-color);
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 30px;
+}
+
+#welcome-section {
+  background-color: var(--welcome-bg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#welcome-section > .title {
+  color: var(--welcome-title-color);
+  font-size: 4rem;
+}
+#welcome-section > p {
+  color: var(--navbar-theme-color);
+  margin-top: 2%;
+  font-size: 1rem;
+}
+
+.education-container {
+  border: 1px solid cyan;
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.education-box {
+  border: 1px dashed green;
+}
+.education-box img {
+  width: auto;
+  height: auto;
+  max-height: 20vh;
+  /* max-width: 30vw; */
+}
+
+footer {
+  background-color: var(--footer-bg-color);
 }
