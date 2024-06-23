@@ -33,6 +33,13 @@
 
 **Project**: [ProductPage](./Projects/ProductPage/) - A product landing page
 
+## Module 5
+
+- [FreeisWheel](./FreeisWheel/): Animations in CSS
+- [Penguin](./Penguin/): Animation, shapes, and transitions in CSS
+
+**Project**: [PortfolioPage](./Projects/PortfolioPage/) - A personal portfolio page
+
 ## References
 
 - https://www.freecodecamp.org/learn/2022/responsive-web-design/

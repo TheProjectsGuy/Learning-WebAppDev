@@ -1,0 +1,11 @@
+#navbar {
+  position: fixed;
+  top: 10;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
