@@ -11,6 +11,7 @@ Basics of JavaScript and some links to related technologies
 - [RolePlayingGame](./RolePlayingGame/): Integrating JavaScript with HTML and CSS using DOM, operators and basics
 - [RandomBackgroundColorChanger](./RandomBackgroundColorChanger/): Errors in JS
 - [CalorieCounter](./CalorieCounter/): Event listeners and element methods in JS
+- [RPSGame](./RPSGame/): Revision of event listeners and JS methods by building a rock-paper-scissors game
 
 ## References
 
