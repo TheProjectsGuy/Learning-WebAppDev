@@ -8,6 +8,8 @@ Basics of JavaScript and some links to related technologies
 
 - [PyramidGenerator](./PyramidGenerator/): Create a pyramid using basic JS. Contains looping, conditional statements, variables, etc.
 - [GradebookApp](./GradebookApp/): String literals (formatted strings), and other JS basics
+- [RolePlayingGame](./RolePlayingGame/): Integrating JavaScript with HTML and CSS using DOM, operators and basics
+- [RandomBackgroundColorChanger](./RandomBackgroundColorChanger/): Errors in JS
 
 ## References
 
