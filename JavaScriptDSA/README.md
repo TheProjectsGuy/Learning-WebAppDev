@@ -10,6 +10,7 @@ Basics of JavaScript and some links to related technologies
 - [GradebookApp](./GradebookApp/): String literals (formatted strings), and other JS basics
 - [RolePlayingGame](./RolePlayingGame/): Integrating JavaScript with HTML and CSS using DOM, operators and basics
 - [RandomBackgroundColorChanger](./RandomBackgroundColorChanger/): Errors in JS
+- [CalorieCounter](./CalorieCounter/): Event listeners and element methods in JS
 
 ## References
 
