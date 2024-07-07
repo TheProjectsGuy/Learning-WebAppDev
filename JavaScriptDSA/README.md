@@ -14,6 +14,8 @@ Basics of JavaScript and some links to related technologies
 - [RPSGame](./RPSGame/): Revision of event listeners and JS methods by building a rock-paper-scissors game
 - [MusicPlayer](./MusicPlayer/): Audio element, DOM manipulation, arrays, arrow (lambda) functions in JS
 
+**Project**: [PalindromeChecker](./Projects/PalindromeChecker/) - A palindrome checker app
+
 ## References
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript
