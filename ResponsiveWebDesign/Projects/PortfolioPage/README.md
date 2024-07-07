@@ -2,7 +2,7 @@
 
 Link: https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-personal-portfolio-webpage-project/build-a-personal-portfolio-webpage
 
-**OBjective**: build a portfolio page like [this](https://personal-portfolio.freecodecamp.rocks/).
+**Objective**: build a portfolio page like [this](https://personal-portfolio.freecodecamp.rocks/).
 
 ## References
 
