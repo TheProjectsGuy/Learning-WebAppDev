@@ -13,8 +13,13 @@ Basics of JavaScript and some links to related technologies
 - [CalorieCounter](./CalorieCounter/): Event listeners and element methods in JS
 - [RPSGame](./RPSGame/): Revision of event listeners and JS methods by building a rock-paper-scissors game
 - [MusicPlayer](./MusicPlayer/): Audio element, DOM manipulation, arrays, arrow (lambda) functions in JS
+- [DateFormatter](./DateFormatter/): Date in JavaScript
 
 **Project**: [PalindromeChecker](./Projects/PalindromeChecker/) - A palindrome checker app
+
+### Module 2
+
+- [FootballTeamCards](./FootballTeamCards/): Switch, map, filter, and destructuring assignment in JS
 
 ## References
 
