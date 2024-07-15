@@ -18,6 +18,7 @@ Local storage in JS
     - setItem: https://developer.mozilla.org/en-US/docs/Web/API/Storage/setItem
     - removeItem: https://developer.mozilla.org/en-US/docs/Web/API/Storage/removeItem
     - clear: https://developer.mozilla.org/en-US/docs/Web/API/Storage/clear
+- cookies: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie
 - JSON: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
     - stringify: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
     - parse: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
