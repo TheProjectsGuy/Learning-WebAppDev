@@ -20,6 +20,8 @@ Basics of JavaScript and some links to related technologies
 ### Module 2
 
 - [FootballTeamCards](./FootballTeamCards/): Switch, map, filter, and destructuring assignment in JS
+- [TodoApp](./TodoApp/): Local storage in JS
+- [BinaryConverter](./BinaryConverter/): Timeouts and recursion
 
 ## References
 
