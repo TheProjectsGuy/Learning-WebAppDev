@@ -3,3 +3,7 @@
 Project 1: [PalindromeChecker](./PalindromeChecker/)
 
 ![Palindrome checker](./imgs/palindrome-checker.png)
+
+Project 2: [RomanNumeralConverter](./RomanNumeralConverter/)
+
+![Roman Numeral Converter](./imgs/roman-converter.png)

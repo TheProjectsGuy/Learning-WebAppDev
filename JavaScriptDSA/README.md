@@ -23,6 +23,8 @@ Basics of JavaScript and some links to related technologies
 - [TodoApp](./TodoApp/): Local storage in JS
 - [BinaryConverter](./BinaryConverter/): Timeouts and recursion
 
+**Project**: [RomanNumeralConverter](./Projects/RomanNumeralConverter/) - Convert input number to roman numerals
+
 ## References
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript
