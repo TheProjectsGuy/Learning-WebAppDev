@@ -2,6 +2,8 @@
 
 From: https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/learn-basic-javascript-by-building-a-role-playing-game
 
+Integrating JS with HTML and CSS
+
 ## References
 
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script
