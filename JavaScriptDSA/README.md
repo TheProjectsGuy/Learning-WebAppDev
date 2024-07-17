@@ -25,6 +25,10 @@ Basics of JavaScript and some links to related technologies
 
 **Project**: [RomanNumeralConverter](./Projects/RomanNumeralConverter/) - Convert input number to roman numerals
 
+### Module 3
+
+- [SpamFilter](./SpamFilter/): Regular expressions in JS
+
 ## References
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript
