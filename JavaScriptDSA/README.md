@@ -28,6 +28,7 @@ Basics of JavaScript and some links to related technologies
 ### Module 3
 
 - [SpamFilter](./SpamFilter/): Regular expressions in JS
+- [NumberSorter](./NumberSorter/): Sorting algorithms in JS
 
 ## References
 
