@@ -1,11 +1,13 @@
-const printGreeting = () => {
-  console.log("Hello there!")
+const nodupes = (nums) => {
+    var res = []
+    for (let v of nums) {
+        if (!res.includes(v)) {
+            res.push(v)
+        } else {
+            console.log(`${v} in ${res}`)
+        }
+    }
+    return res
 }
-const printMessage = org => {
-  console.log(`${org} is awesome!`)
-}
-printMessage("freeCodeCamp")
-const addTwoNumbers = (num1, num2) => {
-  return num1 + num2
-}
-console.log(addTwoNumbers(3, 4))
+
+console.log(nodupes([2, 1, 2, 5, 3, 2, 7]))

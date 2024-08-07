@@ -30,6 +30,7 @@ Basics of JavaScript and some links to related technologies
 - [SpamFilter](./SpamFilter/): Regular expressions in JS
 - [NumberSorter](./NumberSorter/): Sorting algorithms in JS
 - [StatisticsCalculator](./StatisticsCalculator/): Array methods and Math module in JS
+- [Spreadsheet](./Spreadsheet/): Refresher on JS concepts, arrays, regex, and function nesting
 
 ## References
 
