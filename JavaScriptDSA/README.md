@@ -32,6 +32,8 @@ Basics of JavaScript and some links to related technologies
 - [StatisticsCalculator](./StatisticsCalculator/): Array methods and Math module in JS
 - [Spreadsheet](./Spreadsheet/): Refresher on JS concepts, arrays, regex, and function nesting
 
+**Project**: [TelephoneNumValidator](./Projects/TelephoneNumValidator/) - Validate US phone numbers
+
 ## References
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript

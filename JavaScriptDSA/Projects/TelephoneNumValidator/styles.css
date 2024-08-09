@@ -1,0 +1,82 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+main {
+  border: 2px solid red;
+  height: 90vh;
+  position: relative;
+  /* Flexbox (column-wise) */
+  display: flex;
+  flex-direction: column;
+  /* Horizontally center */
+  align-items: center;
+  /* Vertically center */
+  justify-content: center;
+}
+#container {
+  border: 1px dashed grey;
+  min-width: 30vw;
+  padding: 2px 10px;
+}
+#container > #user-input {
+  margin: 0;
+  margin-bottom: 5px;
+  text-align: center;
+  border-width: 2px;
+  border-radius: 10px;
+  /* 100% width including border (box it) */
+  box-sizing: border-box;
+  height: 40px;
+  width: 100%;
+}
+#container > #results {
+  border: 1px dashed cyan;
+  /* A list of items */
+  min-height: 10vh;
+  max-height: 40vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#results ul {
+  list-style-type: circle;
+  border: 1px dashed green;
+  padding-bottom: 5px;
+}
+#results ul li {
+  margin-left: -15px;
+  margin-top: 5px;
+  border: 1px dashed blue;
+}
+
+#container .valid {
+  color: green;
+}
+/* #container span:not(.valid) */
+#container .invalid {
+  color: red;
+}
+#results-div {
+  font-weight: bold;
+  text-align: center;
+}
+#container > #buttons {
+  box-sizing: border-box;
+  margin: 5px auto;;
+  border: 1px dashed yellow;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+#buttons > button {
+  flex-grow: 1;
+  height: 30px;
+}
+footer {
+  border: 1px solid blue;
+  height: 10vh;
+}
+footer a {
+  color: blue;
+}

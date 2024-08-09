@@ -7,3 +7,7 @@ Project 1: [PalindromeChecker](./PalindromeChecker/)
 Project 2: [RomanNumeralConverter](./RomanNumeralConverter/)
 
 ![Roman Numeral Converter](./imgs/roman-converter.png)
+
+Project 3: [TelephoneNumValidator](./TelephoneNumValidator/)
+
+![US Phone Number Validator](./imgs/usnumber-checker.png)

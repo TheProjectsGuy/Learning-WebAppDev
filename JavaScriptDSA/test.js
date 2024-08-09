@@ -1,13 +1,3 @@
-const nodupes = (nums) => {
-    var res = []
-    for (let v of nums) {
-        if (!res.includes(v)) {
-            res.push(v)
-        } else {
-            console.log(`${v} in ${res}`)
-        }
-    }
-    return res
-}
-
-console.log(nodupes([2, 1, 2, 5, 3, 2, 7]))
+let inputText = "(555)-555 5555"
+const ISDRegex = /^(\d{3}|(\(\d{3}\)))[-\s]?\d{3}[-\s]?\d{4}$/
+console.log(ISDRegex.test(inputText))
