@@ -34,6 +34,10 @@ Basics of JavaScript and some links to related technologies
 
 **Project**: [TelephoneNumValidator](./Projects/TelephoneNumValidator/) - Validate US phone numbers
 
+### Module 4
+
+- [ShoppingCart](./ShoppingCart/): OOP in JS
+
 ## References
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript
