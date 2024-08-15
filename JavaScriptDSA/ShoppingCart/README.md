@@ -6,4 +6,5 @@ OOP concepts in JS
 
 ## References
 
-- 
+- Function.bind (for `this`): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind
+- class: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class
